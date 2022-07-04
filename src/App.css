@@ -1,39 +1,56 @@
-.App {
-  text-align: center;
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.site-layout .site-layout-background {
+  background: #fff;
 }
 
-.App-header {
-  min-height: 100vh;
+.logo {
+  height: 4rem;
+  padding: 1em 0 2em 0;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+
+  font-size: 1.5em;
+  
+  background-color: darkorange;
+}
+
+.pageHeader {
+  display: flex;
+  padding: 1.5rem 0 0 1rem;
+  background-color: lightgray !important;
+}
+
+.headerTitle {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  font-size: large;
+  font-style: italic;
+  margin-left: 1rem;
+  margin-bottom: 1.7rem;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.tableAddNewNote {
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.departmentName:hover {
+  border: 1px dashed #1890ff;
+}
+
+.tableFooter {
+  background-color: #fafafa;
+  padding: 1rem;
 }
